@@ -17,6 +17,13 @@
 		/* Sections
 		 * --------------------------------------- */
          
+         img{
+            -webkit-transition: all 0.7s ease-out;
+            -moz-transition: all 0.7s ease-out;
+            -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+            }
+         
          .lightOn{
             background-image: url(imgs/bulbLightEffectOn.png) !important ; 
             background-size: 100% 100%;
@@ -38,6 +45,28 @@
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
+        
+        #diagramL{
+            display: block;
+            position: absolute;
+            top:-1%;
+            left:-10%;
+            
+            width: 400px;
+            height: auto;
+          
+        }
+        
+         #diagramR{
+            display: block;
+            position: absolute;
+            top:100%;
+            left:18%;
+            
+            width: 400px;
+            height: auto;
+        }
+        
         #section1 p {
 			display:none;
 		}
@@ -115,6 +144,12 @@
     
 	<div class="section" id="section2">
 	    <div class="slide">
+            
+             <div class="imageContainer">
+                <img src="imgs/DiagramL.png" id="diagramL" alt="DiagramL" />
+                <img src="imgs/DiagramR.png" id="diagramR" alt="DiagramR" />
+             </div>
+            
 			<div class="intro">
 				<h1>Believes</h1>
 				<p>Who believes in common sense engineering principles</p>
