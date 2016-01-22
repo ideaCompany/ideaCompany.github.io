@@ -12,12 +12,12 @@ $(document).ready(function(){
                         });
 					}
                     if(index == 2){
-                        $('#section1').find('p').first().fadeIn(100, function(){
-                        $('#section1').find('p').last().fadeIn(100);
+                        $('#section1').find('p').first().fadeIn(300, function(){
+                        $('#section1').find('p').last().fadeIn(300);
                         });;
                         
-                        $('#section1').find('h1').first().fadeIn(100, function(){
-                        $('#section1').find('h1').last().fadeIn(100);
+                        $('#section1').find('h1').first().fadeIn(500, function(){
+                        $('#section1').find('h1').last().fadeIn(500);
                         });;  
                     }
                     
@@ -27,9 +27,9 @@ $(document).ready(function(){
                     if (index == 1 && direction == 'down'){
 						 $('#section0').removeClass("lightOn");
                          
-                          $('#section1').delay(200).animate({
+                          $('#section1').delay(500).animate({
 							right: '0%'
-						}, 1000, 'easeOutExpo');
+						}, 1000, 'easeOutCubic');
                         
                       
 					} 
