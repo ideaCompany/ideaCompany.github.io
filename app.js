@@ -26,9 +26,7 @@ $(document).ready(function(){
                     if (index == 1 && direction == 'down'){
 						 $('#section0').removeClass("lightOn");
                          
-                          $('#section1').delay(500).animate({
-							right: '0%'
-						}, 1000, 'easeOutCubic');
+                     
 					}
                     
                      if (index == 2 && direction == 'down'){
