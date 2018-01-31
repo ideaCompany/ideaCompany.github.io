@@ -1,1 +1,0 @@
-# ideaCompany.github.io
